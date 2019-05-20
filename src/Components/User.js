@@ -1,6 +1,6 @@
 import React from 'react';
 
-const selectUser = ({ userId, users }) => {
+const User = ({ userId, users }) => {
   if (userId >= 0) {
     const user = users[userId];
 
@@ -23,4 +23,4 @@ const selectUser = ({ userId, users }) => {
   }
 };
 
-export default selectUser;
+export default User;
